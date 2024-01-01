@@ -118,6 +118,7 @@ class serverHandler {
 
                             const socket2Timeout = setTimeout(()=>{
                                 socket.end();
+                                socket.destroy();
                             }, serverHandler.proxyTimeout);
 
                             socket2.connect({ host: GUtils.getHost(targetData.target), port: GUtils.getPort(targetData.target)}, () => {
