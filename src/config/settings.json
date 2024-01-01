@@ -1,0 +1,10 @@
+{
+    "max-concurrent-connections": 20,
+    "ping-on-proxy-visibility": true,
+    "server-offline-visibility": true,
+    "server-offline-status": "on_timeout.json",
+    "server-not-found-visibility": true,
+    "server-not-found-status": "not_found.json",
+    "auto-complete-passthrough-server-status": true,
+    "hide-max-concurrent-connections-message": true
+}
