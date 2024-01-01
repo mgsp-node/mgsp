@@ -1,0 +1,20 @@
+{
+    "version": {
+        "name": "MGSP Proxy",
+        "protocol": 764
+    },
+    "enforcesSecureChat": true,
+    "description": {
+        "extra": [
+            {
+                "color": "red",
+                "text": "This server is offline."
+            }
+        ],
+        "text": ""
+    },
+    "players": {
+        "max": 0,
+        "online": 0
+    }
+}
