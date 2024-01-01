@@ -190,12 +190,23 @@ This option hides the message that appears when someone reached the max-concurre
 It is set to `true` by default, if you require this option, set it to `false`.
 
 # Other
+## genfavico
 This image comes bundled with `genfavico` which should help generating a valid base64 image string compatible with SLP.\
 Keep in mind this image has to be 64x64.
 
 To use it simply move your PNG file into /app/config/ or your bind-folder, then run:
 ```shell
 sudo docker exec MGSP genfavico /app/config/my-logo.png
+```
+
+## getmotd
+You can retrieve the JSON of a Minecraft server using the `getmotd` command.
+
+The Port is optional.
+
+Here's an example command:
+```shell
+sudo docker exec MGSP getmotd myServer.example.com:25566
 ```
 
 The string should appear in the console.
