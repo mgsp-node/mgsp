@@ -78,12 +78,12 @@ Keep in mind that if the file is invalid, MGSP can not start.
     "hosts": [
         {
             "name": "host A",
-            "address": "hostA.local.x",
+            "address": "hostA.example.com",
             "target": "192.168.0.5:25591"
         },
         {
             "name": "host B",
-            "address": "hostB.local.x",
+            "address": "hostB.example.com",
             "target": "192.168.0.5:25590"
         }
     ]
@@ -101,7 +101,7 @@ One may overwrite the status message reported from a server by using `serverStat
     "hosts": [
         {
             "name": "host A",
-            "address": "hostA.local.x",
+            "address": "hostA.example.com",
             "target": "192.168.0.5:25591",
             "serverStatus": "test.json"
         },
@@ -139,7 +139,7 @@ Example:
     "hosts": [
         {
             "name": "host A",
-            "address": "hostA.local.x",
+            "address": "hostA.example.com",
             "target": "192.168.0.5:25591",
             "serverStatus": "test.json",
             "passthroughPlayerCount": true
