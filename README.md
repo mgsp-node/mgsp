@@ -15,7 +15,8 @@ MGSP works on domain-level.
 # Building the image
 Just like any image, build it using the `docker build` command inside the source code folder:
 ```
-cd mgsp-src
+git clone https://github.com/mgsp-node/mgsp
+cd mgsp
 sudo docker build -t mgsp:latest .
 ```
 
@@ -89,7 +90,7 @@ Keep in mind that if the file is invalid, MGSP can not start.
 }
 ```
 
-MGSP-RE can connect across the internet, as well as local networks to reach the desired Minecraft servers.
+MGSP can connect across the internet, as well as local networks to reach the desired Minecraft servers.
 
 ## Special settings
 ### serverStatus
