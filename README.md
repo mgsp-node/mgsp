@@ -15,7 +15,7 @@ MGSP works on domain-level.
 # Building the image
 Just like any image, build it using the `docker build` command inside the source code folder:
 ```
-git clone https://github.com/mgsp-node/mgsp
+git clone https://github.com/mgsp-node/mgsp --branch release --single-branch
 cd mgsp
 sudo docker build -t mgsp:latest .
 ```
