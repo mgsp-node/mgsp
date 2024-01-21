@@ -306,7 +306,7 @@ class serverHandler {
         });
 
         server.listen(port, () => {
-            console.log(`[MGSP ${version}] running on Port ${port}`);
+            console.log(`[MGSP ${version}] running on port ${port}`);
         });
     }
 
