@@ -13,9 +13,6 @@ ADD src/genfavico.js /app/src
 ADD src/getmotd.js /app/src
 ADD src/mgsp.js /app/src
 
-RUN apt-get update
-RUN apt-get upgrade -y
-
 RUN chmod +x src/genfavico.js
 RUN chmod +x src/getmotd.js
 RUN mv src/genfavico.js /usr/local/bin/genfavico
